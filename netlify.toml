@@ -7,3 +7,8 @@ publish = "build"
 from = "/graphql"
 to = "/.netlify/functions/graphql"
 status = 200
+
+[[redirects]]
+from = "/reviews"
+to = "/.netlify/functions/reviews"
+status = 200
